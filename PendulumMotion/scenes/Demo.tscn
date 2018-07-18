@@ -1,0 +1,21 @@
+[gd_scene load_steps=3 format=2]
+
+[ext_resource path="res://PendulumMotion/scripts/Pendulum.gd" type="Script" id=1]
+[ext_resource path="res://PendulumMotion/creep.tres" type="DynamicFont" id=2]
+
+[node name="scene" type="Node2D" index="0"]
+
+script = ExtResource( 1 )
+font = ExtResource( 2 )
+
+[node name="pivot" type="Node2D" parent="." index="0"]
+
+position = Vector2( 120, 0 )
+_sections_unfolded = [ "Transform" ]
+
+[node name="bob" type="Node2D" parent="." index="1"]
+
+position = Vector2( 120, 80 )
+_sections_unfolded = [ "Transform" ]
+
+

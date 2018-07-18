@@ -1,0 +1,15 @@
+[gd_resource type="DynamicFont" load_steps=2 format=2]
+
+[sub_resource type="DynamicFontData" id=2]
+
+hinting = 2
+font_path = "res://PendulumMotion/creepRegular.dfont"
+
+[resource]
+
+size = 16
+use_mipmaps = false
+use_filter = false
+font_data = SubResource( 2 )
+_sections_unfolded = [ "Font", "Settings" ]
+
